@@ -1,6 +1,14 @@
+Excellent idea. Adding links to your LinkedIn post and profile directly in the `README.md` is a great way to tie everything together, provide context, and make it easy for people to connect with you.
+
+Here is the updated `README.md` with the new sections at the bottom.
+
+-----
+
 # 🏠 Residential Energy Consumption Predictor
 
 A Streamlit application for predicting residential energy consumption using a machine learning model. This tool helps homeowners and analysts forecast energy usage and understand the key factors that influence it.
+
+**Live Demo:** [Check out the live app here\!](https://residential-energy-consumption-predictor-vinuthnabudde.streamlit.app/)
 
 ## ✨ Features
 
@@ -24,9 +32,11 @@ You need to have Python installed. The application uses several libraries that y
 First, clone the repository to your local machine using git:
 
 ```bash
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
 ```
+
+*(Remember to replace `your-username` and `your-repository-name` with your actual GitHub details).*
 
 ### 2\. Install Dependencies
 
@@ -57,6 +67,7 @@ The app will open automatically in your default web browser.
   - `your_app_file_name.py`: The main Python script containing all the Streamlit code.
   - `Random_forest_model (2).pkl`: The pre-trained machine learning model saved using `joblib`.
   - `requirements.txt`: Lists all the Python dependencies required to run the app.
+  - `LICENSE`: The license file for the project (e.g., MIT License).
 
 ## 📈 The Model
 
@@ -78,3 +89,9 @@ We welcome contributions\! If you have suggestions for new features, bug fixes, 
 3.  Make your changes and commit them: `git commit -m 'feat: Add new feature'`.
 4.  Push to the branch: `git push origin feature/your-feature-name`.
 5.  Create a new Pull Request.
+
+## 🔗 Connect with Me
+
+  - **LinkedIn Profile**: [linkedin.com/in/your-profile](www.linkedin.com/in/budde-vinuthna-231642345)
+  - **LinkedIn Post**: [Check out the demo video and project highlights on my LinkedIn post\!](https://www.google.com/search?q=YOUR_LINKEDIN_POST_URL_HERE)
+
