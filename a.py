@@ -437,7 +437,7 @@ def show_home():
         <div class="modern-card">
             <h3>📈 How It Works</h3>
             <p>Navigate to the 'New Prediction' page to input your home's details. The app will use a sophisticated 'Random Forest' model to generate a prediction.</p>
-            <p>Your predictions are saved, allowing you to view them on the **Prediction Dashboard** for deeper insights and trend analysis.</p>
+            <p>Your predictions are saved, allowing you to view them on the 'Prediction Dashboard' for deeper insights and trend analysis.</p>
         </div>
         """, unsafe_allow_html=True)
 
