@@ -18,7 +18,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for the entire app, including the new background image and styling
+# Custom CSS 
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
@@ -436,7 +436,7 @@ def show_home():
         st.markdown(f"""
         <div class="modern-card">
             <h3>📈 How It Works</h3>
-            <p>Navigate to the **New Prediction** page to input your home's details. The app will use a sophisticated **Random Forest** model to generate a prediction.</p>
+            <p>Navigate to the 'New Prediction' page to input your home's details. The app will use a sophisticated 'Random Forest' model to generate a prediction.</p>
             <p>Your predictions are saved, allowing you to view them on the **Prediction Dashboard** for deeper insights and trend analysis.</p>
         </div>
         """, unsafe_allow_html=True)
@@ -478,7 +478,7 @@ def show_predictor():
             date_input = st.date_input("Date", datetime.date.today(), help="The date for which you want to predict consumption.")
             manual_override = st.selectbox("Manual Override", ["No", "Yes"], help="Is there an active manual override on the thermostat?")
         with col2:
-            st.empty() # Placeholder for visual balance
+            st.empty() 
     
     # Derived parameters logic
     try:
@@ -527,7 +527,7 @@ def show_predictor():
 
 # Initialize state variables if not already set
     if "prediction_phase" not in st.session_state:
-        st.session_state.prediction_phase = "idle"  # idle, predicting, done, navigating
+        st.session_state.prediction_phase = "idle"  
 
     if st.button("Predict Energy Consumption", key="predict_btn") and st.session_state.prediction_phase == "idle":
         st.session_state.prediction_phase = "predicting"
@@ -569,7 +569,7 @@ def show_predictor():
         st.success(f"Predicted Energy Consumption: **{st.session_state.predicted_value:.2f} kWh**")
 
         with st.spinner("Navigating to dashboard..."):
-            time.sleep(4)
+            time.sleep(3)
             st.session_state.page = 'Dashboard'
             st.session_state.prediction_phase = "idle"
             st.rerun()
@@ -704,7 +704,7 @@ def show_about():
     st.markdown("""
     <div class="modern-card">
         <h3>The Model: Random Forest</h3>
-        <p>The core of this application is a **Random Forest Regressor** model. Here's why it's a great choice for this task:</p>
+        <p>The core of this application is a "Random Forest Regressor" model. Here's why it's a great choice for this task:</p>
         <ul>
             <li><strong>Accuracy:</strong> It's an ensemble model that combines the predictions of many decision trees, which often leads to highly accurate results.</li>
             <li><strong>Robustness:</strong> It is less prone to overfitting and can handle complex, non-linear relationships between features.</li>
