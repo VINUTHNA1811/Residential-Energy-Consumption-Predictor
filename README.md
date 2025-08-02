@@ -1,9 +1,3 @@
-Excellent idea. Adding links to your LinkedIn post and profile directly in the `README.md` is a great way to tie everything together, provide context, and make it easy for people to connect with you.
-
-Here is the updated `README.md` with the new sections at the bottom.
-
------
-
 # 🏠 Residential Energy Consumption Predictor
 
 A Streamlit application for predicting residential energy consumption using a machine learning model. This tool helps homeowners and analysts forecast energy usage and understand the key factors that influence it.
@@ -67,7 +61,6 @@ The app will open automatically in your default web browser.
   - `your_app_file_name.py`: The main Python script containing all the Streamlit code.
   - `Random_forest_model (2).pkl`: The pre-trained machine learning model saved using `joblib`.
   - `requirements.txt`: Lists all the Python dependencies required to run the app.
-  - `LICENSE`: The license file for the project (e.g., MIT License).
 
 ## 📈 The Model
 
@@ -93,5 +86,5 @@ We welcome contributions\! If you have suggestions for new features, bug fixes, 
 ## 🔗 Connect with Me
 
   - **LinkedIn Profile**: [linkedin.com/in/your-profile](www.linkedin.com/in/budde-vinuthna-231642345)
-  - **LinkedIn Post**: [Check out the demo video and project highlights on my LinkedIn post\!](https://www.google.com/search?q=YOUR_LINKEDIN_POST_URL_HERE)
+  - **LinkedIn Post**: [Check out the demo video and project highlights on my LinkedIn post\!](https://www.linkedin.com/posts/budde-vinuthna-231642345_python-streamlit-machinelearning-activity-7357231923330531329-DaUI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFZp6sUB_BHgff6t3CRDrvW4lvbYjRB6LCE)
 
