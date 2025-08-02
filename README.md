@@ -85,6 +85,6 @@ We welcome contributions\! If you have suggestions for new features, bug fixes, 
 
 ## 🔗 Connect with Me
 
-  - **LinkedIn Profile**: [linkedin.com/in/your-profile](www.linkedin.com/in/budde-vinuthna-231642345)
+  - **LinkedIn Profile**: [linkedin.com/in/your-profile](https://www.linkedin.com/in/budde-vinuthna-231642345)
   - **LinkedIn Post**: [Check out the demo video and project highlights on my LinkedIn post\!](https://www.linkedin.com/posts/budde-vinuthna-231642345_python-streamlit-machinelearning-activity-7357231923330531329-DaUI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFZp6sUB_BHgff6t3CRDrvW4lvbYjRB6LCE)
 
